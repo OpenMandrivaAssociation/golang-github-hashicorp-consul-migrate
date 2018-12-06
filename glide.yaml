@@ -1,0 +1,19 @@
+import:
+- package: github.com/hashicorp/go-msgpack
+  subpackages:
+  - codec
+  version: 71c2886f5a673a35f909803f38ece5810165097b
+- package: github.com/armon/gomdb
+  version: 151f2e08ef45cb0e57d694b2562f351955dff572
+- package: github.com/hashicorp/raft
+  version: 6c2c8a2375827c2cb41d0028e2fb5fe016b10619
+- package: github.com/armon/go-metrics
+  version: a54701ebec11868993bc198c3f315353e9de2ed6
+- package: github.com/hashicorp/raft-mdb
+  version: 4ec3694ffbc74d34f7532e70ef2e9c3546a0c0b0
+- package: github.com/boltdb/bolt
+  version: ee954308d64186f0fc9b7022b6178977848c17a3
+- package: github.com/hashicorp/raft-boltdb
+  version: d1e82c1ec3f15ee991f7cc7ffd5b67ff6f5bbaee
+package: github.com/hashicorp/consul-migrate
+
